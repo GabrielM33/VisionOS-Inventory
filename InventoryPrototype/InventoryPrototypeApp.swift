@@ -14,7 +14,9 @@ struct InventoryPrototypeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                InventoryListView()
+            }
         }
     }
 }

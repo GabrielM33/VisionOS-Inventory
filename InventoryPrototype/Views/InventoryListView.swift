@@ -10,14 +10,35 @@ import SwiftUI
 struct InventoryListView: View {
     
     @StateObject var vm = InventorViewModel()
+    @State var formType: FormType?
     
     var body: some View {
         List {
             ForEach(vm.items) { item in
                 InventoryListItemView(item: item)
+                    .listRowSeparator(.hidden)
+                    .contentShape(Rectangle())
+                    .onTapGesture {
+                        formType = .edit(item)
+                    }
             }
         }
         .navigationTitle("Inventory Prototype")
+        .toolbar {
+            ToolbarItem(placement: .primaryAction) {
+                Button("+ Item") {
+                    formType = .add
+                }
+            }
+        }
+        .sheet(item: $formType) {type in
+            NavigationStack {
+                InventoryFormView(vm: .init(formType: type))
+            }
+            .presentationDetents([.fraction(0.85)])
+            .interactiveDismissDisabled()
+        }
+        
         .onAppear {
             vm.listenToItems()
         }

@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF0821612B618D3C00E34496 /* InventoryFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0821602B618D3C00E34496 /* InventoryFormView.swift */; };
+		AF0821642B618DB100E34496 /* InventoryFormVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0821632B618DB100E34496 /* InventoryFormVM.swift */; };
+		AF2D09822B6D8DFE0044BA6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2D09812B6D8DFE0044BA6E /* GoogleService-Info.plist */; };
+		AF2D09852B6D8EBF0044BA6E /* InventoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2D09842B6D8EBF0044BA6E /* InventoryListView.swift */; };
 		AFAB2BD02B5B61A4004A7651 /* InventoryPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB2BCF2B5B61A4004A7651 /* InventoryPrototypeApp.swift */; };
-		AFAB2BD22B5B61A4004A7651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB2BD12B5B61A4004A7651 /* ContentView.swift */; };
 		AFAB2BD42B5B61A5004A7651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB2BD32B5B61A5004A7651 /* Assets.xcassets */; };
 		AFAB2BD72B5B61A5004A7651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB2BD62B5B61A5004A7651 /* Preview Assets.xcassets */; };
 		AFAB2C022B5B620D004A7651 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = AFAB2C012B5B620D004A7651 /* RealityKitContent */; };
 		AFAB2C042B5B620D004A7651 /* InventoryPrototypeVisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB2C032B5B620D004A7651 /* InventoryPrototypeVisionOSApp.swift */; };
-		AFAB2C062B5B620D004A7651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAB2C052B5B620D004A7651 /* ContentView.swift */; };
 		AFAB2C082B5B620E004A7651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB2C072B5B620E004A7651 /* Assets.xcassets */; };
 		AFAB2C0B2B5B620E004A7651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAB2C0A2B5B620E004A7651 /* Preview Assets.xcassets */; };
 		AFAB2C202B5B63F9004A7651 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AFAB2C1F2B5B63F9004A7651 /* FirebaseFirestore */; };
@@ -36,20 +38,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF0821602B618D3C00E34496 /* InventoryFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormView.swift; sourceTree = "<group>"; };
+		AF0821632B618DB100E34496 /* InventoryFormVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryFormVM.swift; sourceTree = "<group>"; };
+		AF2D09812B6D8DFE0044BA6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF2D09842B6D8EBF0044BA6E /* InventoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryListView.swift; sourceTree = "<group>"; };
 		AFAB2BCC2B5B61A4004A7651 /* InventoryPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAB2BCF2B5B61A4004A7651 /* InventoryPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryPrototypeApp.swift; sourceTree = "<group>"; };
-		AFAB2BD12B5B61A4004A7651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFAB2BD32B5B61A5004A7651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAB2BD62B5B61A5004A7651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFAB2BFD2B5B620D004A7651 /* InventoryPrototypeVisionOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventoryPrototypeVisionOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAB2C002B5B620D004A7651 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		AFAB2C032B5B620D004A7651 /* InventoryPrototypeVisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryPrototypeVisionOSApp.swift; sourceTree = "<group>"; };
-		AFAB2C052B5B620D004A7651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AFAB2C072B5B620E004A7651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAB2C0A2B5B620E004A7651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFAB2C0C2B5B620E004A7651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFAB2C2E2B5B6686004A7651 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info-2.plist"; path = "../../../Downloads/GoogleService-Info-2.plist"; sourceTree = "<group>"; };
-		AFAB2C302B5B669C004A7651 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFEBC7452B614C8A00FA12A6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFF04E522B6158A00040D335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		AFF04E542B615B1A0040D335 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF0821622B618D7B00E34496 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				AF0821632B618DB100E34496 /* InventoryFormVM.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		AF2D09832B6D8EA50044BA6E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF2D09842B6D8EBF0044BA6E /* InventoryListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AFAB2BC32B5B61A4004A7651 = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +127,11 @@
 		AFAB2BCE2B5B61A4004A7651 /* InventoryPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				AF0821622B618D7B00E34496 /* Observables */,
 				AFF04E622B6162660040D335 /* Views */,
-				AFAB2C302B5B669C004A7651 /* GoogleService-Info.plist */,
 				AFAB2BCF2B5B61A4004A7651 /* InventoryPrototypeApp.swift */,
-				AFAB2BD12B5B61A4004A7651 /* ContentView.swift */,
 				AFAB2BD32B5B61A5004A7651 /* Assets.xcassets */,
+				AF2D09812B6D8DFE0044BA6E /* GoogleService-Info.plist */,
 				AFF04E522B6158A00040D335 /* Info.plist */,
 				AFAB2BD52B5B61A5004A7651 /* Preview Content */,
 			);
@@ -130,9 +149,9 @@
 		AFAB2BFE2B5B620D004A7651 /* InventoryPrototypeVisionOS */ = {
 			isa = PBXGroup;
 			children = (
+				AF2D09832B6D8EA50044BA6E /* Views */,
 				AFEBC7452B614C8A00FA12A6 /* GoogleService-Info.plist */,
 				AFAB2C032B5B620D004A7651 /* InventoryPrototypeVisionOSApp.swift */,
-				AFAB2C052B5B620D004A7651 /* ContentView.swift */,
 				AFAB2C072B5B620E004A7651 /* Assets.xcassets */,
 				AFAB2C0C2B5B620E004A7651 /* Info.plist */,
 				AFAB2C092B5B620E004A7651 /* Preview Content */,
@@ -195,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				AFF04E632B61627E0040D335 /* InventoryListView.swift */,
+				AF0821602B618D3C00E34496 /* InventoryFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,6 +314,7 @@
 			files = (
 				AFAB2BD72B5B61A5004A7651 /* Preview Assets.xcassets in Resources */,
 				AFAB2BD42B5B61A5004A7651 /* Assets.xcassets in Resources */,
+				AF2D09822B6D8DFE0044BA6E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,11 +338,12 @@
 			files = (
 				AFF04E552B615B1A0040D335 /* AppDelegate.swift in Sources */,
 				AFF04E642B61627E0040D335 /* InventoryListView.swift in Sources */,
-				AFAB2BD22B5B61A4004A7651 /* ContentView.swift in Sources */,
+				AF0821642B618DB100E34496 /* InventoryFormVM.swift in Sources */,
 				AFAB2BD02B5B61A4004A7651 /* InventoryPrototypeApp.swift in Sources */,
 				AFF04E5D2B6160660040D335 /* InventoryListVM.swift in Sources */,
 				AFF04E602B61622B0040D335 /* String+Extension.swift in Sources */,
 				AFF04E592B615E930040D335 /* InventoryItem.swift in Sources */,
+				AF0821612B618D3C00E34496 /* InventoryFormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,11 +352,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFF04E562B615B1A0040D335 /* AppDelegate.swift in Sources */,
-				AFAB2C062B5B620D004A7651 /* ContentView.swift in Sources */,
 				AFAB2C042B5B620D004A7651 /* InventoryPrototypeVisionOSApp.swift in Sources */,
 				AFF04E5E2B6160660040D335 /* InventoryListVM.swift in Sources */,
 				AFF04E612B61622B0040D335 /* String+Extension.swift in Sources */,
 				AFF04E5A2B615E930040D335 /* InventoryItem.swift in Sources */,
+				AF2D09852B6D8EBF0044BA6E /* InventoryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
