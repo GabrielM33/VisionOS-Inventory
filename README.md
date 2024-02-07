@@ -1,4 +1,4 @@
-# Inventory Prototype for iOS and VisionOS Integration
+# Inventory Prototype
 
 
 Credits to [Alfian Losari](https://github.com/alfianlosari)
