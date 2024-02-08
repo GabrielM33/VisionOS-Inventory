@@ -7,6 +7,10 @@
 
 ### 2. Save Item Through iOS App
 
+
+https://github.com/GabrielM33/Inventory-iOSVisionOS/assets/123421871/ab8d09bc-e1a3-4796-b63d-0612be435dbf
+
+
 ### 3. Open up Item on VisionOS
 
 Credits to [Alfian Losari](https://github.com/alfianlosari)
