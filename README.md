@@ -1,3 +1,8 @@
+To open the project, download the\is repository and open it up through the terminal using the following prompts:
+
+cd InventoryPrototype
+open --env FIREBASE_SOURCE_FIRESTORE InventoryPrototype.xcodeproj
+
 # Inventory Prototype
 
 ### 1. Scan Item With Object Capture
