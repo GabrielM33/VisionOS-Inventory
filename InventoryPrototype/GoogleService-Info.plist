@@ -9,7 +9,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>EnvisionStudios</string>
+	<string>com.EnvisionStudios.InventoryPrototype</string>
 	<key>PROJECT_ID</key>
 	<string>inventoryprototype-65ca3</string>
 	<key>STORAGE_BUCKET</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:230172864525:ios:0ac5de00138fce45b1e544</string>
+	<string>1:230172864525:ios:c0b4e54ad6531aedb1e544</string>
 </dict>
 </plist>

@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyC0Jx-KKdwfaCbhT75AogPN1_e0-AaSg28</string>
+	<string>AIzaSyCCRy9acQFAQ2OC32-toI515zVhYtUGjvA</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1010672399407</string>
+	<string>230172864525</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.envisionstudios.inventoryprototypevisionos</string>
+	<string>com.EnvisionStudios.InventoryPrototypeVisionOS1</string>
 	<key>PROJECT_ID</key>
-	<string>inventoryprototypevisionos</string>
+	<string>inventoryprototype-65ca3</string>
 	<key>STORAGE_BUCKET</key>
-	<string>inventoryprototypevisionos.appspot.com</string>
+	<string>inventoryprototype-65ca3.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1010672399407:ios:e10120e8fba39ae017c2da</string>
+	<string>1:230172864525:ios:e04b21fb53962209b1e544</string>
 </dict>
 </plist>
