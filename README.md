@@ -1,4 +1,5 @@
-To open the project, download the\is repository and open it up through the terminal using the following prompts:
+# How to Open this Project on Xcode?
+Download this repository and open it up through the terminal using the following prompts:
 
 cd InventoryPrototype
 open --env FIREBASE_SOURCE_FIRESTORE InventoryPrototype.xcodeproj
