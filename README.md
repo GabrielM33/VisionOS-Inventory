@@ -2,7 +2,9 @@
 Download this repository and open it up through the terminal using the following prompts:
 
 cd InventoryPrototype
+
 &nbsp;
+
 open --env FIREBASE_SOURCE_FIRESTORE InventoryPrototype.xcodeproj
 
 # Inventory Prototype
