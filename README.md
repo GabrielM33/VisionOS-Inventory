@@ -1,4 +1,4 @@
-### Current Project I am working on
+## Current Project I am working on
 
 # How to Open this Project on Xcode?
 Download this repository and open it up through the terminal using the following prompts:
