@@ -7,5 +7,6 @@ Download this repository and open it using the terminal and the following prompt
 * cd InventoryPrototype
 * open --env FIREBASE_SOURCE_FIRESTORE InventoryPrototype.xcodeproj
 
+![InventoryPic](https://github.com/GabrielM33/Inventory-iOSVisionOS/assets/123421871/9236308f-069c-497c-8abf-d526236d9c48)
 
 Credits to [Alfian Losari](https://github.com/alfianlosari)
